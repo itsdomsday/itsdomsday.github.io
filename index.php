@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Dominic Gil Cristobal</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -39,32 +39,24 @@
 
 <div class="container">
     <div class="personal-info">
-        <img src="your_photo.jpg" alt="Your Name">
-        <h1>Your Name</h1>
-        <p>Email: your@email.com</p>
-        <p>Phone: +1234567890</p>
-        <p>Location: Your City, Country</p>
+        <img src="dgvc.jpg" alt="Dominic Gil Cristobal">
+        <h1>Dominic Gil Cristobal</h1>
+        <p>Email: dgvcristobal@gmail.com</p>
+        <p>Phone: +639054714962</p>
+        <p>Location: Caloocan City, Philippines</p>
     </div>
 
     <h2>Projects</h2>
 
     <?php
-    // Array of projects
     $projects = [
         [
             "title" => "Project 1",
             "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo odio eu odio laoreet placerat.",
             "image" => "project1.jpg",
         ],
-        [
-            "title" => "Project 2",
-            "description" => "Vestibulum sit amet est nec ligula interdum convallis sed eget odio.",
-            "image" => "project2.jpg",
-        ],
-        // Add more projects as needed
     ];
 
-    // Loop through projects and display them
     foreach ($projects as $project) {
         echo "<div class='project'>";
         echo "<h3>{$project['title']}</h3>";
